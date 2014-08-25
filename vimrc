@@ -118,4 +118,4 @@ set laststatus=2
 set statusline=%f%m%r%h\ %w\ CWD:\ %{getcwd()}%h\ \ INFO:\ %{&ff}/%{&fenc!=''?&fenc:&enc}\ \ LINE:\ %l/%L:%c
 
 
-colorscheme molokai
+colorscheme desert
