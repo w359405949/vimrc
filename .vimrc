@@ -124,3 +124,4 @@ augroup filetype
 augroup end
 
 nnoremap <silent> <F12> :AV<CR>
+nnoremap <silent> <F3> :Grep<CR>
