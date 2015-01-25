@@ -1,0 +1,3 @@
+[submodule ".deps/gitflow"]
+	path = .deps/gitflow
+	url = git@github.com:nvie/gitflow.git
