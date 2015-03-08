@@ -122,6 +122,11 @@ colorscheme molokai
 augroup filetype
    au! BufRead,BufNewFile *.proto setfiletype proto
 augroup end
+au BufNewFile,BufRead *.cpp set syntax=cpp11
+au BufNewFile,BufRead *.cc set syntax=cpp11
+au BufNewFile,BufRead *.h set syntax=cpp11
+au BufNewFile,BufRead *.hpp set syntax=cpp11
+au BufNewFile,BufRead *.hh set syntax=cpp11
 
 nnoremap <silent> <F12> :AV<CR>
 nnoremap <silent> <F3> :Grep<CR>
